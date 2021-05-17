@@ -1,13 +1,14 @@
 #define INNIE_OVERRIDE 'code/modules/halo/clothing/inniearmor.dmi'
 
 /obj/item/clothing/under/innie/jumpsuit
-	name = "Insurrectionist Jumpsuit"
-	desc = "A grey insurrectionist jumpsuit."
+	name = "Insurrectionist-modified Jumpsuit"
+	desc = "A grey jumpsuit, modified with extra padding."
 	icon = INNIE_OVERRIDE
 	icon_override = INNIE_OVERRIDE
 	item_state = "jumpsuit1_s"
 	icon_state = "jumpsuit1_s"
 	worn_state = "jumpsuit1"
+	armor = list(melee = 10, bullet = 10, laser = 0,energy = 0, bomb = 0, bio = 0, rad = 0)
 	item_icons = list(
 		slot_l_hand_str = null,
 		slot_r_hand_str = null,
@@ -130,8 +131,7 @@
 	item_flags = THICKMATERIAL
 	body_parts_covered = HEAD
 	armor_thickness = 10
-	slowdown_general = 0.2
-	armor = list(melee = 50, bullet = 30, laser = 50,energy = 20, bomb = 25, bio = 0, rad = 0)
+	armor = list(melee = 30, bullet = 25, laser = 45,energy = 15, bomb = 20, bio = 0, rad = 0)
 	item_icons = list(
 		slot_l_hand_str = null,
 		slot_r_hand_str = null,
@@ -149,8 +149,7 @@
 	item_flags = THICKMATERIAL
 	body_parts_covered = HEAD
 	armor_thickness = 10
-	slowdown_general = 0.2
-	armor = list(melee = 50, bullet = 30, laser = 50,energy = 20, bomb = 25, bio = 0, rad = 0)
+	armor = list(melee = 30, bullet = 25, laser = 45,energy = 15, bomb = 20, bio = 0, rad = 0)
 	item_icons = list(
 		slot_l_hand_str = null,
 		slot_r_hand_str = null,
@@ -168,8 +167,7 @@
 	item_flags = THICKMATERIAL
 	body_parts_covered = HEAD
 	armor_thickness = 10
-	slowdown_general = 0.2
-	armor = list(melee = 50, bullet = 30, laser = 50,energy = 20, bomb = 25, bio = 0, rad = 0)
+	armor = list(melee = 30, bullet = 25, laser = 45,energy = 15, bomb = 20, bio = 0, rad = 0)
 	item_icons = list(
 		slot_l_hand_str = null,
 		slot_r_hand_str = null,
@@ -187,8 +185,7 @@
 	item_flags = THICKMATERIAL
 	body_parts_covered = HEAD
 	armor_thickness = 10
-	slowdown_general = 0.2
-	armor = list(melee = 50, bullet = 30, laser = 50,energy = 20, bomb = 25, bio = 0, rad = 0)
+	armor = list(melee = 30, bullet = 25, laser = 45,energy = 15, bomb = 20, bio = 0, rad = 0)
 	item_icons = list(
 		slot_l_hand_str = null,
 		slot_r_hand_str = null,
@@ -206,8 +203,7 @@
 	item_flags = THICKMATERIAL
 	body_parts_covered = HEAD
 	armor_thickness = 10
-	slowdown_general = 0.2
-	armor = list(melee = 50, bullet = 30, laser = 50,energy = 20, bomb = 25, bio = 0, rad = 0)
+	armor = list(melee = 30, bullet = 25, laser = 45,energy = 15, bomb = 20, bio = 0, rad = 0)
 	item_icons = list(
 		slot_l_hand_str = null,
 		slot_r_hand_str = null,
@@ -222,20 +218,10 @@
 	icon_override = INNIE_OVERRIDE
 	item_state = "h_innie_helmet_brown"
 	icon_state = "h_innie_helmet_obj_brown"
-	body_parts_covered = HEAD
 	item_flags = THICKMATERIAL
-	w_class = ITEM_SIZE_HUGE//bulky item
-	gas_transfer_coefficient = 0.01
-	permeability_coefficient = 0.01
-	slowdown_general = 1
-	siemens_coefficient = 1.5
-	armor_thickness = 20
-	armor = list(melee = 50, bullet = 50, laser = 50, energy = 50, bomb = 50, bio = 20, rad = 15)
-	gas_transfer_coefficient = 0.90
-	action_button_name = "Toggle Helmet Light"
-	light_overlay = "helmet_light"
-	brightness_on = 4
-	on = 0
+	body_parts_covered = HEAD
+	armor_thickness = 15
+	armor = list(melee = 45, bullet = 35, laser = 40,energy = 25, bomb = 25, bio = 0, rad = 0)
 	item_icons = list(
 		slot_l_hand_str = null,
 		slot_r_hand_str = null,
@@ -250,20 +236,10 @@
 	icon_override = INNIE_OVERRIDE
 	item_state = "h_innie_helmet_blue"
 	icon_state = "h_innie_helmet_obj_blue"
-	body_parts_covered = HEAD
 	item_flags = THICKMATERIAL
-	w_class = ITEM_SIZE_HUGE//bulky item
-	gas_transfer_coefficient = 0.01
-	permeability_coefficient = 0.01
-	slowdown_general = 1
-	siemens_coefficient = 1.5
-	armor_thickness = 20
-	armor = list(melee = 50, bullet = 50, laser = 50, energy = 50, bomb = 50, bio = 20, rad = 15)
-	gas_transfer_coefficient = 0.90
-	action_button_name = "Toggle Helmet Light"
-	light_overlay = "helmet_light"
-	brightness_on = 4
-	on = 0
+	body_parts_covered = HEAD
+	armor_thickness = 15
+	armor = list(melee = 45, bullet = 35, laser = 40,energy = 25, bomb = 25, bio = 0, rad = 0)
 	item_icons = list(
 		slot_l_hand_str = null,
 		slot_r_hand_str = null,
@@ -278,20 +254,10 @@
 	icon_override = INNIE_OVERRIDE
 	item_state = "h_innie_helmet_green"
 	icon_state = "h_innie_helmet_obj_green"
-	body_parts_covered = HEAD
 	item_flags = THICKMATERIAL
-	w_class = ITEM_SIZE_HUGE//bulky item
-	gas_transfer_coefficient = 0.01
-	permeability_coefficient = 0.01
-	slowdown_general = 1
-	siemens_coefficient = 1.5
-	armor_thickness = 20
-	armor = list(melee = 50, bullet = 50, laser = 50, energy = 50, bomb = 50, bio = 20, rad = 15)
-	gas_transfer_coefficient = 0.90
-	action_button_name = "Toggle Helmet Light"
-	light_overlay = "helmet_light"
-	brightness_on = 4
-	on = 0
+	body_parts_covered = HEAD
+	armor_thickness = 15
+	armor = list(melee = 45, bullet = 35, laser = 40,energy = 25, bomb = 25, bio = 0, rad = 0)
 	item_icons = list(
 		slot_l_hand_str = null,
 		slot_r_hand_str = null,
@@ -306,20 +272,10 @@
 	icon_override = INNIE_OVERRIDE
 	item_state = "h_innie_helmet_black"
 	icon_state = "h_innie_helmet_obj_black"
-	body_parts_covered = HEAD
 	item_flags = THICKMATERIAL
-	w_class = ITEM_SIZE_HUGE//bulky item
-	gas_transfer_coefficient = 0.01
-	permeability_coefficient = 0.01
-	slowdown_general = 1
-	siemens_coefficient = 1.5
-	armor_thickness = 20
-	armor = list(melee = 50, bullet = 50, laser = 50, energy = 50, bomb = 50, bio = 20, rad = 15)
-	gas_transfer_coefficient = 0.90
-	action_button_name = "Toggle Helmet Light"
-	light_overlay = "helmet_light"
-	brightness_on = 4
-	on = 0
+	body_parts_covered = HEAD
+	armor_thickness = 15
+	armor = list(melee = 45, bullet = 35, laser = 40,energy = 25, bomb = 25, bio = 0, rad = 0)
 	item_icons = list(
 		slot_l_hand_str = null,
 		slot_r_hand_str = null,
@@ -334,20 +290,10 @@
 	icon_override = INNIE_OVERRIDE
 	item_state = "h_innie_helmet_white"
 	icon_state = "h_innie_helmet_obj_white"
-	body_parts_covered = HEAD
 	item_flags = THICKMATERIAL
-	w_class = ITEM_SIZE_HUGE//bulky item
-	gas_transfer_coefficient = 0.01
-	permeability_coefficient = 0.01
-	slowdown_general = 1
-	siemens_coefficient = 1.5
-	armor_thickness = 20
-	armor = list(melee = 50, bullet = 50, laser = 50, energy = 50, bomb = 50, bio = 20, rad = 15)
-	gas_transfer_coefficient = 0.90
-	action_button_name = "Toggle Helmet Light"
-	light_overlay = "helmet_light"
-	brightness_on = 4
-	on = 0
+	body_parts_covered = HEAD
+	armor_thickness = 15
+	armor = list(melee = 45, bullet = 35, laser = 40,energy = 25, bomb = 25, bio = 0, rad = 0)
 	item_icons = list(
 		slot_l_hand_str = null,
 		slot_r_hand_str = null,
@@ -362,12 +308,12 @@
 	icon_override = INNIE_OVERRIDE
 	item_state = "l_innie_foot_brown"
 	icon_state = "l_innie_foot_obj_brown"
-	force = 5
-	armor = list(melee = 30, bullet = 30, laser = 10, energy = 15, bomb = 20, bio = 0, rad = 0)
-	siemens_coefficient = 0.7
-	can_hold_knife = 1
-	body_parts_covered = FEET|LEGS
+	force = 2
+	armor = list(melee = 20, bullet = 20, laser = 5, energy = 20, bomb = 15, bio = 0, rad = 0)
 	item_flags = NOSLIP
+	siemens_coefficient = 0.6
+	body_parts_covered = FEET|LEGS
+	can_hold_knife = 1
 	cold_protection = FEET
 	min_cold_protection_temperature = SHOE_MIN_COLD_PROTECTION_TEMPERATURE
 	heat_protection = FEET
@@ -380,12 +326,12 @@
 	icon_override = INNIE_OVERRIDE
 	item_state = "l_innie_foot_blue"
 	icon_state = "l_innie_foot_obj_blue"
-	force = 5
-	armor = list(melee = 30, bullet = 30, laser = 10, energy = 15, bomb = 20, bio = 0, rad = 0)
-	siemens_coefficient = 0.7
-	can_hold_knife = 1
-	body_parts_covered = FEET|LEGS
+	force = 2
+	armor = list(melee = 20, bullet = 20, laser = 5, energy = 20, bomb = 15, bio = 0, rad = 0)
 	item_flags = NOSLIP
+	siemens_coefficient = 0.6
+	body_parts_covered = FEET|LEGS
+	can_hold_knife = 1
 	cold_protection = FEET
 	min_cold_protection_temperature = SHOE_MIN_COLD_PROTECTION_TEMPERATURE
 	heat_protection = FEET
@@ -398,12 +344,12 @@
 	icon_override = INNIE_OVERRIDE
 	item_state = "l_innie_foot_green"
 	icon_state = "l_innie_foot_obj_green"
-	force = 5
-	armor = list(melee = 30, bullet = 30, laser = 10, energy = 15, bomb = 20, bio = 0, rad = 0)
-	siemens_coefficient = 0.7
-	can_hold_knife = 1
-	body_parts_covered = FEET|LEGS
+	force = 2
+	armor = list(melee = 20, bullet = 20, laser = 5, energy = 20, bomb = 15, bio = 0, rad = 0)
 	item_flags = NOSLIP
+	siemens_coefficient = 0.6
+	body_parts_covered = FEET|LEGS
+	can_hold_knife = 1
 	cold_protection = FEET
 	min_cold_protection_temperature = SHOE_MIN_COLD_PROTECTION_TEMPERATURE
 	heat_protection = FEET
@@ -416,12 +362,12 @@
 	icon_override = INNIE_OVERRIDE
 	item_state = "l_innie_foot_black"
 	icon_state = "l_innie_foot_obj_black"
-	force = 5
-	armor = list(melee = 30, bullet = 30, laser = 10, energy = 15, bomb = 20, bio = 0, rad = 0)
-	siemens_coefficient = 0.7
-	can_hold_knife = 1
-	body_parts_covered = FEET|LEGS
+	force = 2
+	armor = list(melee = 20, bullet = 20, laser = 5, energy = 20, bomb = 15, bio = 0, rad = 0)
 	item_flags = NOSLIP
+	siemens_coefficient = 0.6
+	body_parts_covered = FEET|LEGS
+	can_hold_knife = 1
 	cold_protection = FEET
 	min_cold_protection_temperature = SHOE_MIN_COLD_PROTECTION_TEMPERATURE
 	heat_protection = FEET
@@ -434,8 +380,8 @@
 	icon_override = INNIE_OVERRIDE
 	item_state = "m_innie_foot_blue"
 	icon_state = "m_innie_foot_obj_blue"
-	force = 5
-	armor = list(melee = 40, bullet = 40, laser = 5, energy = 20, bomb = 15, bio = 0, rad = 0)
+	force = 4
+	armor = list(melee = 25, bullet = 30, laser = 5, energy = 20, bomb = 15, bio = 0, rad = 0)
 	item_flags = NOSLIP
 	siemens_coefficient = 0.6
 	body_parts_covered = FEET|LEGS
@@ -452,8 +398,8 @@
 	icon_override = INNIE_OVERRIDE
 	item_state = "m_innie_foot_brown"
 	icon_state = "m_innie_foot_obj_brown"
-	force = 5
-	armor = list(melee = 40, bullet = 40, laser = 5, energy = 20, bomb = 15, bio = 0, rad = 0)
+	force = 4
+	armor = list(melee = 25, bullet = 30, laser = 5, energy = 20, bomb = 15, bio = 0, rad = 0)
 	item_flags = NOSLIP
 	siemens_coefficient = 0.6
 	body_parts_covered = FEET|LEGS
@@ -470,8 +416,8 @@
 	icon_override = INNIE_OVERRIDE
 	item_state = "m_innie_foot_green"
 	icon_state = "m_innie_foot_obj_green"
-	force = 5
-	armor = list(melee = 40, bullet = 40, laser = 5, energy = 20, bomb = 15, bio = 0, rad = 0)
+	force = 4
+	armor = list(melee = 25, bullet = 30, laser = 5, energy = 20, bomb = 15, bio = 0, rad = 0)
 	item_flags = NOSLIP
 	siemens_coefficient = 0.6
 	body_parts_covered = FEET|LEGS
@@ -488,8 +434,8 @@
 	icon_override = INNIE_OVERRIDE
 	item_state = "m_innie_foot_black"
 	icon_state = "m_innie_foot_obj_black"
-	force = 5
-	armor = list(melee = 40, bullet = 40, laser = 5, energy = 20, bomb = 15, bio = 0, rad = 0)
+	force = 4
+	armor = list(melee = 25, bullet = 30, laser = 5, energy = 20, bomb = 15, bio = 0, rad = 0)
 	item_flags = NOSLIP
 	siemens_coefficient = 0.6
 	body_parts_covered = FEET|LEGS
@@ -506,8 +452,8 @@
 	icon_override = INNIE_OVERRIDE
 	item_state = "m_innie_foot_white"
 	icon_state = "m_innie_foot_obj_blue"
-	force = 5
-	armor = list(melee = 40, bullet = 40, laser = 5, energy = 20, bomb = 15, bio = 0, rad = 0)
+	force = 4
+	armor = list(melee = 25, bullet = 30, laser = 5, energy = 20, bomb = 15, bio = 0, rad = 0)
 	item_flags = NOSLIP
 	siemens_coefficient = 0.6
 	body_parts_covered = FEET|LEGS
@@ -530,6 +476,7 @@
 	var/slots = 2
 	var/max_w_class = ITEM_SIZE_SMALL
 	armor_thickness = 10
+	slowdown_general = -0.5
 	allowed = list(/obj/item/device/flashlight,/obj/item/weapon/gun/projectile,/obj/item/ammo_magazine,/obj/item/ammo_casing,/obj/item/weapon/storage/fancy/cigarettes,/obj/item/weapon/flame/lighter)
 	starting_accessories = /obj/item/clothing/accessory/holster/hip
 
@@ -546,6 +493,7 @@
 	slots = 2
 	max_w_class = ITEM_SIZE_SMALL
 	armor_thickness = 10
+	slowdown_general = -0.5
 	allowed = list(/obj/item/device/flashlight,/obj/item/weapon/gun/projectile,/obj/item/ammo_magazine,/obj/item/ammo_casing,/obj/item/weapon/storage/fancy/cigarettes,/obj/item/weapon/flame/lighter)
 	starting_accessories = /obj/item/clothing/accessory/holster/hip
 
@@ -562,6 +510,7 @@
 	slots = 2
 	max_w_class = ITEM_SIZE_SMALL
 	armor_thickness = 10
+	slowdown_general = -0.5
 	allowed = list(/obj/item/device/flashlight,/obj/item/weapon/gun/projectile,/obj/item/ammo_magazine,/obj/item/ammo_casing,/obj/item/weapon/storage/fancy/cigarettes,/obj/item/weapon/flame/lighter)
 	starting_accessories = /obj/item/clothing/accessory/holster/hip
 
@@ -578,6 +527,7 @@
 	slots = 2
 	max_w_class = ITEM_SIZE_SMALL
 	armor_thickness = 10
+	slowdown_general = -0.5
 	allowed = list(/obj/item/device/flashlight,/obj/item/weapon/gun/projectile,/obj/item/ammo_magazine,/obj/item/ammo_casing,/obj/item/weapon/storage/fancy/cigarettes,/obj/item/weapon/flame/lighter)
 	starting_accessories = /obj/item/clothing/accessory/holster/hip
 
@@ -594,6 +544,7 @@
 	slots = 2
 	max_w_class = ITEM_SIZE_SMALL
 	armor_thickness = 10
+	slowdown_general = -0.5
 	allowed = list(/obj/item/device/flashlight,/obj/item/weapon/gun/projectile,/obj/item/ammo_magazine,/obj/item/ammo_casing,/obj/item/weapon/storage/fancy/cigarettes,/obj/item/weapon/flame/lighter)
 	starting_accessories = /obj/item/clothing/accessory/holster/hip
 
@@ -610,6 +561,7 @@
 	slots = 6
 	max_w_class = ITEM_SIZE_SMALL
 	armor_thickness = 10
+	slowdown_general = -0.5
 	allowed = list(/obj/item/device/flashlight,/obj/item/weapon/gun/projectile,/obj/item/ammo_magazine,/obj/item/ammo_casing,/obj/item/weapon/storage/fancy/cigarettes,/obj/item/weapon/flame/lighter)
 	starting_accessories = /obj/item/clothing/accessory/holster/hip
 
@@ -622,11 +574,10 @@
 	icon_state = "m_innie_chest_obj_blue"
 	blood_overlay_type = "m_innie_chest_blue"
 	body_parts_covered = ARMS|UPPER_TORSO|LOWER_TORSO
-	armor = list(melee = 50, bullet = 45, laser = 40, energy = 30, bomb = 35, bio = 0, rad = 0)
+	armor = list(melee = 45, bullet = 40, laser = 35, energy = 30, bomb = 30, bio = 0, rad = 0)
 	var/slots = 4
 	var/max_w_class = ITEM_SIZE_SMALL
-	armor_thickness = 25
-	slowdown_general = 0.2
+	armor_thickness = 15
 	allowed = list(/obj/item/device/flashlight,/obj/item/weapon/gun/projectile,/obj/item/ammo_magazine,/obj/item/ammo_casing,/obj/item/weapon/storage/fancy/cigarettes,/obj/item/weapon/flame/lighter)
 	starting_accessories = /obj/item/clothing/accessory/holster/hip
 
@@ -640,11 +591,10 @@
 	icon_state = "m_innie_chest_obj_blue"
 	blood_overlay_type = "m_innie_chest_blue"
 	body_parts_covered = ARMS|UPPER_TORSO|LOWER_TORSO
-	armor = list(melee = 50, bullet = 45, laser = 40, energy = 30, bomb = 35, bio = 0, rad = 0)
+	armor = list(melee = 45, bullet = 40, laser = 35, energy = 30, bomb = 30, bio = 0, rad = 0)
 	slots = 4
 	max_w_class = ITEM_SIZE_SMALL
-	armor_thickness = 25
-	slowdown_general = 0.2
+	armor_thickness = 15
 	allowed = list(/obj/item/device/flashlight,/obj/item/weapon/gun/projectile,/obj/item/ammo_magazine,/obj/item/ammo_casing,/obj/item/weapon/storage/fancy/cigarettes,/obj/item/weapon/flame/lighter)
 	starting_accessories = /obj/item/clothing/accessory/holster/hip
 
@@ -657,11 +607,10 @@
 	icon_state = "m_innie_chest_obj_brown"
 	blood_overlay_type = "m_innie_chest_brown"
 	body_parts_covered = ARMS|UPPER_TORSO|LOWER_TORSO
-	armor = list(melee = 50, bullet = 45, laser = 40, energy = 30, bomb = 35, bio = 0, rad = 0)
+	armor = list(melee = 45, bullet = 40, laser = 35, energy = 30, bomb = 30, bio = 0, rad = 0)
 	slots = 4
 	max_w_class = ITEM_SIZE_SMALL
-	armor_thickness = 25
-	slowdown_general = 0.2
+	armor_thickness = 15
 	allowed = list(/obj/item/device/flashlight,/obj/item/weapon/gun/projectile,/obj/item/ammo_magazine,/obj/item/ammo_casing,/obj/item/weapon/storage/fancy/cigarettes,/obj/item/weapon/flame/lighter)
 	starting_accessories = /obj/item/clothing/accessory/holster/hip
 
@@ -674,11 +623,10 @@
 	icon_state = "m_innie_chest_obj_green"
 	blood_overlay_type = "m_innie_chest_green"
 	body_parts_covered = ARMS|UPPER_TORSO|LOWER_TORSO
-	armor = list(melee = 50, bullet = 45, laser = 40, energy = 30, bomb = 35, bio = 0, rad = 0)
+	armor = list(melee = 45, bullet = 40, laser = 35, energy = 30, bomb = 30, bio = 0, rad = 0)
 	slots = 4
 	max_w_class = ITEM_SIZE_SMALL
-	armor_thickness = 25
-	slowdown_general = 0.2
+	armor_thickness = 15
 	allowed = list(/obj/item/device/flashlight,/obj/item/weapon/gun/projectile,/obj/item/ammo_magazine,/obj/item/ammo_casing,/obj/item/weapon/storage/fancy/cigarettes,/obj/item/weapon/flame/lighter)
 	starting_accessories = /obj/item/clothing/accessory/holster/hip
 
@@ -691,11 +639,10 @@
 	icon_state = "m_innie_chest_obj_black"
 	blood_overlay_type = "m_innie_chest_black"
 	body_parts_covered = ARMS|UPPER_TORSO|LOWER_TORSO
-	armor = list(melee = 50, bullet = 45, laser = 40, energy = 30, bomb = 35, bio = 0, rad = 0)
+	armor = list(melee = 45, bullet = 40, laser = 35, energy = 30, bomb = 30, bio = 0, rad = 0)
 	slots = 4
 	max_w_class = ITEM_SIZE_SMALL
-	armor_thickness = 25
-	slowdown_general = 0.2
+	armor_thickness = 15
 	allowed = list(/obj/item/device/flashlight,/obj/item/weapon/gun/projectile,/obj/item/ammo_magazine,/obj/item/ammo_casing,/obj/item/weapon/storage/fancy/cigarettes,/obj/item/weapon/flame/lighter)
 	starting_accessories = /obj/item/clothing/accessory/holster/hip
 
@@ -708,11 +655,10 @@
 	icon_state = "m_innie_chest_obj_white"
 	blood_overlay_type = "m_innie_chest_white"
 	body_parts_covered = ARMS|UPPER_TORSO|LOWER_TORSO
-	armor = list(melee = 50, bullet = 45, laser = 40, energy = 30, bomb = 35, bio = 0, rad = 0)
+	armor = list(melee = 45, bullet = 40, laser = 35, energy = 30, bomb = 30, bio = 0, rad = 0)
 	slots = 4
 	max_w_class = ITEM_SIZE_SMALL
-	armor_thickness = 25
-	slowdown_general = 0.2
+	armor_thickness = 15
 	allowed = list(/obj/item/device/flashlight,/obj/item/weapon/gun/projectile,/obj/item/ammo_magazine,/obj/item/ammo_casing,/obj/item/weapon/storage/fancy/cigarettes,/obj/item/weapon/flame/lighter)
 	starting_accessories = /obj/item/clothing/accessory/holster/hip
 
@@ -724,19 +670,15 @@
 	item_state = "h_innie_chest_blue"
 	icon_state = "h_innie_chest_obj_blue"
 	blood_overlay_type = "h_innie_chest_blue"
-	w_class = ITEM_SIZE_HUGE//bulky item
-	item_flags = THICKMATERIAL
-	allowed = list(/obj/item/weapon/gun/energy,/obj/item/device/radio,/obj/item/weapon/reagent_containers/spray/pepper,/obj/item/weapon/gun/projectile,/obj/item/ammo_magazine,/obj/item/ammo_casing,/obj/item/weapon/melee/baton,/obj/item/weapon/handcuffs,/obj/item/weapon/gun/magnetic)
-	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|FEET|ARMS|HANDS
-	flags_inv = 29
-	flags_inv = HIDESHOES
-	siemens_coefficient = 0
-	gas_transfer_coefficient = 0.01
-	permeability_coefficient = 0.01
-	armor = list(melee = 50, bullet = 50, laser = 50, energy = 50, bomb = 50, bio = 20, rad = 15)
-	armor_thickness= 30
-	slowdown_general = 1
-	siemens_coefficient = 0.7
+	body_parts_covered = ARMS|UPPER_TORSO|LOWER_TORSO
+	armor = list(melee = 55, bullet = 50, laser = 35, energy = 40, bomb = 40, bio = 0, rad = 0)
+	slots = 2
+	max_w_class = ITEM_SIZE_SMALL
+	armor_thickness = 20
+	slowdown_general = 0.5
+	siemens_coefficient = 0.3
+	allowed = list(/obj/item/device/flashlight,/obj/item/weapon/gun/projectile,/obj/item/ammo_magazine,/obj/item/ammo_casing,/obj/item/weapon/storage/fancy/cigarettes,/obj/item/weapon/flame/lighter)
+	starting_accessories = /obj/item/clothing/accessory/holster/hip
 
 /obj/item/clothing/suit/storage/heavyurfarmor/
 	name = "M22H Body Armor"
@@ -746,19 +688,16 @@
 	item_state = "h_innie_chest_brown"
 	icon_state = "h_innie_chest_obj_brown"
 	blood_overlay_type = "h_innie_chest_brown"
-	w_class = ITEM_SIZE_HUGE//bulky item
-	item_flags = THICKMATERIAL
-	allowed = list(/obj/item/weapon/gun/energy,/obj/item/device/radio,/obj/item/weapon/reagent_containers/spray/pepper,/obj/item/weapon/gun/projectile,/obj/item/ammo_magazine,/obj/item/ammo_casing,/obj/item/weapon/melee/baton,/obj/item/weapon/handcuffs,/obj/item/weapon/gun/magnetic)
-	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|FEET|ARMS|HANDS
-	flags_inv = 29
-	flags_inv = HIDESHOES
-	siemens_coefficient = 0
-	gas_transfer_coefficient = 0.01
-	permeability_coefficient = 0.01
-	armor = list(melee = 50, bullet = 50, laser = 50, energy = 50, bomb = 50, bio = 20, rad = 15)
-	armor_thickness= 30
-	slowdown_general = 1
-	siemens_coefficient = 0.7
+	body_parts_covered = ARMS|UPPER_TORSO|LOWER_TORSO
+	armor = list(melee = 55, bullet = 50, laser = 35, energy = 40, bomb = 40, bio = 0, rad = 0)
+	var/slots = 2
+	var/max_w_class = ITEM_SIZE_SMALL
+	armor_thickness = 20
+	slowdown_general = 0.5
+	siemens_coefficient = 0.3
+	allowed = list(/obj/item/device/flashlight,/obj/item/weapon/gun/projectile,/obj/item/ammo_magazine,/obj/item/ammo_casing,/obj/item/weapon/storage/fancy/cigarettes,/obj/item/weapon/flame/lighter)
+	starting_accessories = /obj/item/clothing/accessory/holster/hip
+
 /obj/item/clothing/suit/storage/heavyurfarmor/brown
 	name = "M22H Body Armor - Brown Camo"
 	desc = "The M22H Body Armor is composed of materials salvaged from a wide array of UNSC equipment based off the M52B Body Armor and re-designed with more plating with overall better defense but lacking in movement crafted by X-25 for the new armor series being rolled out from Eridanus Secundus."
@@ -767,19 +706,15 @@
 	item_state = "h_innie_chest_brown"
 	icon_state = "h_innie_chest_obj_brown"
 	blood_overlay_type = "h_innie_chest_brown"
-	w_class = ITEM_SIZE_HUGE//bulky item
-	item_flags = THICKMATERIAL
-	allowed = list(/obj/item/weapon/gun/energy,/obj/item/device/radio,/obj/item/weapon/reagent_containers/spray/pepper,/obj/item/weapon/gun/projectile,/obj/item/ammo_magazine,/obj/item/ammo_casing,/obj/item/weapon/melee/baton,/obj/item/weapon/handcuffs,/obj/item/weapon/gun/magnetic)
-	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|FEET|ARMS|HANDS
-	flags_inv = 29
-	flags_inv = HIDESHOES
-	siemens_coefficient = 0
-	gas_transfer_coefficient = 0.01
-	permeability_coefficient = 0.01
-	armor = list(melee = 50, bullet = 50, laser = 50, energy = 50, bomb = 50, bio = 20, rad = 15)
-	armor_thickness= 30
-	slowdown_general = 1
-	siemens_coefficient = 0.7
+	body_parts_covered = ARMS|UPPER_TORSO|LOWER_TORSO
+	armor = list(melee = 55, bullet = 50, laser = 35, energy = 40, bomb = 40, bio = 0, rad = 0)
+	slots = 2
+	max_w_class = ITEM_SIZE_SMALL
+	armor_thickness = 20
+	slowdown_general = 0.5
+	siemens_coefficient = 0.3
+	allowed = list(/obj/item/device/flashlight,/obj/item/weapon/gun/projectile,/obj/item/ammo_magazine,/obj/item/ammo_casing,/obj/item/weapon/storage/fancy/cigarettes,/obj/item/weapon/flame/lighter)
+	starting_accessories = /obj/item/clothing/accessory/holster/hip
 
 /obj/item/clothing/suit/storage/heavyurfarmor/green
 	name = "M22H Body Armor - Green Camo"
@@ -789,19 +724,15 @@
 	item_state = "h_innie_chest_green"
 	icon_state = "h_innie_chest_obj_green"
 	blood_overlay_type = "h_innie_chest_green"
-	w_class = ITEM_SIZE_HUGE//bulky item
-	item_flags = THICKMATERIAL
-	allowed = list(/obj/item/weapon/gun/energy,/obj/item/device/radio,/obj/item/weapon/reagent_containers/spray/pepper,/obj/item/weapon/gun/projectile,/obj/item/ammo_magazine,/obj/item/ammo_casing,/obj/item/weapon/melee/baton,/obj/item/weapon/handcuffs,/obj/item/weapon/gun/magnetic)
-	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|FEET|ARMS|HANDS
-	flags_inv = 29
-	flags_inv = HIDESHOES
-	siemens_coefficient = 0
-	gas_transfer_coefficient = 0.01
-	permeability_coefficient = 0.01
-	armor = list(melee = 50, bullet = 50, laser = 50, energy = 50, bomb = 50, bio = 20, rad = 15)
-	armor_thickness= 30
-	slowdown_general = 1
-	siemens_coefficient = 0.7
+	body_parts_covered = ARMS|UPPER_TORSO|LOWER_TORSO
+	armor = list(melee = 55, bullet = 50, laser = 35, energy = 40, bomb = 40, bio = 0, rad = 0)
+	slots = 2
+	max_w_class = ITEM_SIZE_SMALL
+	armor_thickness = 20
+	slowdown_general = 0.5
+	siemens_coefficient = 0.3
+	allowed = list(/obj/item/device/flashlight,/obj/item/weapon/gun/projectile,/obj/item/ammo_magazine,/obj/item/ammo_casing,/obj/item/weapon/storage/fancy/cigarettes,/obj/item/weapon/flame/lighter)
+	starting_accessories = /obj/item/clothing/accessory/holster/hip
 
 /obj/item/clothing/suit/storage/heavyurfarmor/black
 	name = "M22H Body Armor - Black Camo"
@@ -811,19 +742,15 @@
 	item_state = "h_innie_chest_black"
 	icon_state = "h_innie_chest_obj_black"
 	blood_overlay_type = "h_innie_chest_black"
-	w_class = ITEM_SIZE_HUGE//bulky item
-	item_flags = THICKMATERIAL
-	allowed = list(/obj/item/weapon/gun/energy,/obj/item/device/radio,/obj/item/weapon/reagent_containers/spray/pepper,/obj/item/weapon/gun/projectile,/obj/item/ammo_magazine,/obj/item/ammo_casing,/obj/item/weapon/melee/baton,/obj/item/weapon/handcuffs,/obj/item/weapon/gun/magnetic)
-	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|FEET|ARMS|HANDS
-	flags_inv = 29
-	flags_inv = HIDESHOES
-	siemens_coefficient = 0
-	gas_transfer_coefficient = 0.01
-	permeability_coefficient = 0.01
-	armor = list(melee = 50, bullet = 50, laser = 50, energy = 50, bomb = 50, bio = 20, rad = 15)
-	armor_thickness= 30
-	slowdown_general = 1
-	siemens_coefficient = 0.7
+	body_parts_covered = ARMS|UPPER_TORSO|LOWER_TORSO
+	armor = list(melee = 55, bullet = 50, laser = 35, energy = 40, bomb = 40, bio = 0, rad = 0)
+	slots = 2
+	max_w_class = ITEM_SIZE_SMALL
+	armor_thickness = 20
+	slowdown_general = 0.5
+	siemens_coefficient = 0.3
+	allowed = list(/obj/item/device/flashlight,/obj/item/weapon/gun/projectile,/obj/item/ammo_magazine,/obj/item/ammo_casing,/obj/item/weapon/storage/fancy/cigarettes,/obj/item/weapon/flame/lighter)
+	starting_accessories = /obj/item/clothing/accessory/holster/hip
 
 /obj/item/clothing/suit/storage/heavyurfarmor/white
 	name = "M22H Body Armor - White Camo"
@@ -833,19 +760,15 @@
 	item_state = "h_innie_chest_white"
 	icon_state = "h_innie_chest_obj_white"
 	blood_overlay_type = "h_innie_chest_white"
-	w_class = ITEM_SIZE_HUGE//bulky item
-	item_flags = THICKMATERIAL
-	allowed = list(/obj/item/weapon/gun/energy,/obj/item/device/radio,/obj/item/weapon/reagent_containers/spray/pepper,/obj/item/weapon/gun/projectile,/obj/item/ammo_magazine,/obj/item/ammo_casing,/obj/item/weapon/melee/baton,/obj/item/weapon/handcuffs,/obj/item/weapon/gun/magnetic)
-	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|FEET|ARMS|HANDS
-	flags_inv = 29
-	flags_inv = HIDESHOES
-	siemens_coefficient = 0
-	gas_transfer_coefficient = 0.01
-	permeability_coefficient = 0.01
-	armor = list(melee = 50, bullet = 50, laser = 50, energy = 50, bomb = 50, bio = 20, rad = 15)
-	armor_thickness= 30
-	slowdown_general = 1
-	siemens_coefficient = 0.7
+	body_parts_covered = ARMS|UPPER_TORSO|LOWER_TORSO
+	armor = list(melee = 55, bullet = 50, laser = 35, energy = 40, bomb = 40, bio = 0, rad = 0)
+	slots = 2
+	max_w_class = ITEM_SIZE_SMALL
+	armor_thickness = 20
+	slowdown_general = 0.5
+	siemens_coefficient = 0.3
+	allowed = list(/obj/item/device/flashlight,/obj/item/weapon/gun/projectile,/obj/item/ammo_magazine,/obj/item/ammo_casing,/obj/item/weapon/storage/fancy/cigarettes,/obj/item/weapon/flame/lighter)
+	starting_accessories = /obj/item/clothing/accessory/holster/hip
 
 /obj/item/clothing/suit/armor/innie
 	name = "Salvaged Armor"
@@ -965,25 +888,5 @@
 
 	integrated_hud = /obj/item/clothing/glasses/hud/tactical
 
-
-/obj/item/clothing/gloves/thick/urf //Combined effect of SWAT gloves and insulated gloves
-	desc = "Standard Issue URF Combat Gloves."
-	name = "URF Combat gloves"
-	icon_override = INNIE_OVERRIDE
-	item_state = "urfgloves_worn"
-	icon_state = "urfgloves_obj"
-	siemens_coefficient = 0
-	permeability_coefficient = 0.05
-	body_parts_covered = HANDS
-	armor = list(melee = 30, bullet = 40, laser = 10, energy = 25, bomb = 15, bio = 0, rad = 0)
-	cold_protection = HANDS
-	min_cold_protection_temperature = GLOVES_MIN_COLD_PROTECTION_TEMPERATURE
-	heat_protection = HANDS
-	max_heat_protection_temperature = GLOVES_MAX_HEAT_PROTECTION_TEMPERATURE
-
-/obj/item/clothing/head/beret/urf
-	name = "URF Commander Beret"
-	desc = "A beret with the URF insignia emblazoned on it."
-	icon_state = "beret_corporate_red"
 
 #undef INNIE_OVERRIDE

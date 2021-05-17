@@ -2,7 +2,7 @@
 #include "_om_ship_areas_definition.dm"
 
 /obj/effect/overmap/ship/CCV_star
-	name = "CCV Star"
+	name = "Civilian Vessel"
 	desc = "A Civilian vessel with a traditional cargo-hauler design."
 
 	icon = 'freighter.dmi'
